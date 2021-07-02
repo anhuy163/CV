@@ -105,14 +105,13 @@ h1,h2,h3{
     line-height: 0.5;
 }
 .header_1{
+    background-color: rgb(30, 30, 134);
     height: 75px;
     width: 100%;
-    position: fixed;
-    display: flex;
-    overflow: hidden;
     top: 0;
-    flex-direction: row;
-    z-index: 9;
+    left: 0;
+    position: fixed;  
+    z-index: 4;
 }
 #myBtn {
     display: none;
