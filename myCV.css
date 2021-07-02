@@ -1,3 +1,12 @@
+.header_1{
+    background-color: rgb(30, 30, 134);
+    height: 75px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;  
+    z-index: 4;
+}
 .first_about{
     margin-left: auto;
     margin-right: auto;
@@ -71,12 +80,7 @@
     text-decoration: none;
     text-emphasis: none;
 }
-/* .header_1{
-    height: 75px;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgb(146 161 176 / 15%);
-} */
+
 .menu{
     margin-left: auto;
     margin-right: auto;
@@ -94,25 +98,14 @@
 .main_menu:hover{
     border-bottom: 3px solid white;
 }
-nav{
-    justify-content: space-between;
-    align-items: center;
-}
+
 ul, ol{
     list-style: none;
 }
 h1,h2,h3{
     line-height: 0.5;
 }
-.header_1{
-    background-color: rgb(30, 30, 134);
-    height: 75px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;  
-    z-index: 4;
-}
+
 #myBtn {
     display: none;
     position: fixed;
@@ -131,83 +124,3 @@ h1,h2,h3{
   #myBtn:hover {
     background-color: #555;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .menu-bar{
-    height: 51px;
-    background-color: rgba(0, 1, 2, 0.822);
-    width: 100%;
-}
-.menu-list{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    font-size: 2em;
-    width: 100%;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-}
-.menu-list a{
-    font-family: sans-serif;
-    display: inline-block;
-    margin-top: 20px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: roboto-medium;
-    color: white;
-    transition: all .3s;
-}
-.menu-list a:hover{
-    border-bottom: 5px solid #f7f7f7;
-    color: white;
-    font-family: roboto-bold;
-    transition-property: all;
-    transition-duration: 0.4s;
-    transition-delay: 0s;
-    -o-transition-timing-function: ease;
-}
-img, html, hr, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-ul, ol{
-    list-style: none;
-} */
